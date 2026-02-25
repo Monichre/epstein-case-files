@@ -1,0 +1,14 @@
+# todo.nd
+
+## Task: Adopt requested workflow orchestration standard
+- [x] Capture user workflow directives in persistent notes.
+- [x] Create/update `tasks/lessons.nd` with enforceable operating rules.
+- [x] Confirm operating mode change to user.
+
+## Review
+- Added workflow rules to `tasks/lessons.nd`.
+- Going forward I will:
+  - plan first for non-trivial tasks,
+  - verify before completion,
+  - use focused subagents for complex parallelizable work,
+  - and log correction patterns in lessons.

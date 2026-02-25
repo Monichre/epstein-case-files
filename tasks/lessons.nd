@@ -1,0 +1,12 @@
+# lessons.nd
+
+## 2026-02-25 — Workflow orchestration baseline (user directive)
+- Default to **Plan Mode** for any non-trivial task (3+ steps or architecture choices).
+- If execution goes sideways, stop and re-plan before continuing.
+- Use subagents for research/exploration/parallel analysis when complexity justifies it.
+- Keep one focused task per subagent.
+- After user corrections, record the correction pattern here to prevent repeats.
+- Never mark complete without verification evidence (tests/logs/output).
+- Prefer root-cause fixes over patches; keep scope minimal and simple.
+- For non-trivial work, explicitly evaluate whether a more elegant solution exists.
+- For bug reports, move directly to diagnosis and fix with evidence.
