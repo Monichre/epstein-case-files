@@ -1,0 +1,42 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "full_epstein_index",
+  "dataset_size": 3358381,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/theelderemo/FULL_EPSTEIN_INDEX@a382df9d80d203eb93c9feef2cef04d3728f9a42/dataset_text_extract - dataset_text_extract.csv": {
+      "num_bytes": 3334969,
+      "checksum": null
+    }
+  },
+  "download_size": 3334969,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 6693350,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3358381,
+      "num_examples": 8531,
+      "dataset_name": "full_epstein_index"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
